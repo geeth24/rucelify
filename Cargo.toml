@@ -1,0 +1,18 @@
+[package]
+name = "rucelify"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.24"
+dotenv = "0.15.0"
+notify-rust = "4.8.0"
+open = "4.0.2"
+reqwest = { version = "0.11", features = ["blocking"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.96"
+time = "0.3.20"
+tokio = { version = "1.16.1", features = ["full"] }
+webbrowser = "0.8.9"
